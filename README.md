@@ -1,8 +1,8 @@
-# STM32F103 ADC Acquisition Prototype
+# STM32F103 ADC Acquisition Test
 
-面向声振实验数据采集的 STM32F103C8 固件原型：定时触发单通道 ADC，使用循环 DMA 缓冲，并通过串口把原始采样值送给上位机分析。
+这是声振实验前期做的 STM32F103C8 单通道采集测试：定时触发 ADC、用循环 DMA 缓冲，再通过串口把原始采样值送到上位机。它验证的是采集链路，不是完整仪器固件。
 
-*An STM32F103C8 firmware prototype for timer-triggered ADC sampling, circular DMA buffering, and serial transfer of raw measurements.*
+*An early STM32F103C8 acquisition test using timer-triggered ADC sampling, circular DMA buffering, and serial transfer.*
 
 ## 数据链路
 
